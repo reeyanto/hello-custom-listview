@@ -2,6 +2,7 @@ package com.riyanto.hellocustomlistview.repository;
 
 import com.riyanto.hellocustomlistview.model.Mahasiswa;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MahasiswaRepo {
@@ -18,5 +19,13 @@ public class MahasiswaRepo {
 
     public boolean delete(Mahasiswa mahasiswa) {
         return mahasiswaList.remove(mahasiswa);
+    }
+
+    public List<Mahasiswa> getAll() {
+        return mahasiswaList;
+    }
+
+    public void clearAll() {
+        mahasiswaList.clear();
     }
 }

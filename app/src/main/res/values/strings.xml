@@ -3,4 +3,11 @@
     <string name="nim">NIM</string>
     <string name="nama_lengkap">Nama Lengkap</string>
     <string name="program_studi">Program Studi</string>
+    <string name="data_empty">Data Empty</string>
+    <string name="nomor_induk_mahasiswa">Nomor Induk Mahasiswa</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="save_now">Save Now</string>
+    <string name="clear_all">Clear All</string>
+    <string name="update_data">Update Data</string>
+    <string name="delete_data">Delete Data</string>
 </resources>
